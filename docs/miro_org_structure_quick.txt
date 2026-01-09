@@ -1,72 +1,113 @@
 ORGANIZATIONAL STRUCTURE / ОРГАНИЗАЦИОННАЯ СТРУКТУРА
-Team of 4 Employees / Команда из 4 сотрудников
+Expanded Team Structure / Расширенная структура команды
 ====================================================
 
 BLOCK PLACEMENT / РАСПОЛОЖЕНИЕ БЛОКОВ:
 --------------------------------------
 
 TOP LEVEL (Owners) / ВЕРХНИЙ УРОВЕНЬ (Владельцы):
-[Owner 1 / Владелец 1]                    [Owner 2 / Владелец 2]
-Chief Designer / Главный конструктор      Production Manager / Начальник производства
-+ Sales Manager / Менеджер по продажам    (Operational Management / Оперативное управление)
+[EMP 1: SEO]                    [EMP 2: Production Supervisor]
+Search Engine Optimization      Production Supervisor / Начальник производства
+                                (Operational Management / Оперативное управление)
 
-MIDDLE LEVEL / СРЕДНИЙ УРОВЕНЬ:
-                [Design Engineer / Инженер-проектировщик]
-                Planner + Optimizer / Планировщик + Оптимизатор
-                (Reports to: Owner 2 / Подчинение: Владелец 2)
+CONNECTION BETWEEN OWNERS / СВЯЗЬ МЕЖДУ ВЛАДЕЛЬЦАМИ:
+EMP 1 ←→ EMP 2 (Collaboration / Взаимодействие, dashed / пунктир)
 
-LOWER LEVEL / НИЖНИЙ УРОВЕНЬ:
-                [Production Supervisor / Начальник производства]
-                Universal Master / Мастер-универсал
-                + Quality Controller / Контролер качества
-                (Reports to: Owner 1 Strategy, Owner 2 Operations /
-                 Подчинение: Владелец 1 стратегия, Владелец 2 оперативно)
+MIDDLE LEVEL (Managers) / СРЕДНИЙ УРОВЕНЬ (Менеджеры):
+[EMP 3: Sales Manager]          [EMP 4: Team Lead]
+Reports to: EMP 1 (SEO)         Reports to: EMP 2 (Production Supervisor)
+
+[EMP 5: Design Engineer]        [EMP 6: Head of Procurement]
+Reports to: EMP 2               Reports to: EMP 2
+(Production Supervisor)         (Production Supervisor)
+
+LOWER LEVEL (Staff) / НИЖНИЙ УРОВЕНЬ (Персонал):
+[EMP 7: Dealer 1]               [EMP 10: Specialist One]
+[EMP 8: Dealer 2]               [EMP 11: Assistant] (under Specialist One)
+[EMP 9: Dealer 3]               [EMP 12: Specialist Two]
+Reports to: EMP 3 (Sales Manager)    [EMP 13: Assistant] (under Specialist Two)
+                                      [EMP 14: Laminator 1]
+                                      [EMP 15: Laminator 2]
+                                      [EMP 16: Laminator 3]
+                                      Reports to: EMP 4 (Team Lead)
+
+[EMP 17: Contractor. Electrical]
+[EMP 18: Contractor. Stainless Steel]
+[EMP 19: Contractor. Other]
+Reports to: EMP 6 (Head of Procurement)
 
 CONNECTIONS / СВЯЗИ:
 ---------------------
-1. EMP 1 ←→ EMP 2 (Partners / Equal / равноправные партнеры, dashed / пунктир)
-2. EMP 2 → EMP 3 (Direct Report / прямое подчинение, solid / сплошная)
-3. EMP 1 → EMP 4 (Strategy / стратегия, solid / сплошная)
-4. EMP 2 → EMP 4 (Operations / оперативно, solid / сплошная)
-5. EMP 1 ←→ EMP 3 (Collaboration / взаимодействие, dashed / пунктир)
-6. EMP 3 ←→ EMP 4 (Technical Support / технология, dashed / пунктир)
+1. EMP 1 ←→ EMP 2 (Collaboration / Взаимодействие, dashed / пунктир)
+2. EMP 1 → EMP 3 (Direct Report / прямое подчинение, solid / сплошная)
+3. EMP 2 → EMP 4 (Direct Report / прямое подчинение, solid / сплошная)
+4. EMP 2 → EMP 5 (Direct Report / прямое подчинение, solid / сплошная)
+5. EMP 2 → EMP 6 (Direct Report / прямое подчинение, solid / сплошная)
+6. EMP 5 ←→ EMP 4 (Collaboration / Взаимодействие, dashed / пунктир, arrow from Team Lead to Design Engineer)
+7. EMP 4 ←→ EMP 6 (Collaboration / Взаимодействие, dashed / пунктир, arrow from Team Lead to Head of Procurement)
+8. EMP 3 → EMP 7, EMP 8, EMP 9 (Direct Report / прямое подчинение, solid / сплошная)
+9. EMP 4 → EMP 10, EMP 11 (Direct Report / прямое подчинение, solid / сплошная, grouped with bracket)
+10. EMP 4 → EMP 12, EMP 13 (Direct Report / прямое подчинение, solid / сплошная, grouped with bracket)
+11. EMP 4 → EMP 14, EMP 15, EMP 16 (Direct Report / прямое подчинение, solid / сплошная)
+12. EMP 6 → EMP 17, EMP 18, EMP 19 (Direct Report / прямое подчинение, solid / сплошная)
 
 COLORS / ЦВЕТА:
 ---------------
-🟡 Gold/Yellow - Owner 1 & Owner 2 / Золотой/Желтый - Владелец 1 и Владелец 2
-🔵 Blue - Production Supervisor / Синий - Начальник производства
-🟢 Green - Design Engineer / Зеленый - Инженер-проектировщик
+🟡 Gold/Yellow - EMP 1 (SEO) & EMP 2 (Production Supervisor) / Золотой/Желтый - Владельцы
+🔵 Blue - Managers (EMP 3-6) / Синий - Менеджеры
+🟢 Green - Staff: Dealers (EMP 7-9), Specialists (EMP 10, 12), Contractors (EMP 17-19) / Зеленый - Персонал
+⚪ Grey - Staff: Assistants (EMP 11, 13), Laminators (EMP 14-16) / Серый - Персонал
 
 BLOCK TEXT / ТЕКСТ ДЛЯ БЛОКОВ:
 ------------------------------
 
-EMP 1: OWNER 1 / ВЛАДЕЛЕЦ 1
-OWNER 1 / ВЛАДЕЛЕЦ 1
-Chief Designer / Главный конструктор
-+ Sales Manager / Менеджер по продажам
+EMP 1: SEO / ПОИСКОВАЯ ОПТИМИЗАЦИЯ
+SEO / Search Engine Optimization
+Owner / Владелец
 
 Functions / Функции:
-• Order Acceptance / Прием заказов
-• Design Management / Руководство проектированием
-• Client Relations / Работа с клиентами
-• Final Quality Approval / Финальное одобрение качества
+• Strategic Management / Стратегическое управление
+• Marketing & SEO / Маркетинг и SEO
+• Business Development / Развитие бизнеса
+• Sales Management / Управление продажами
 
-EMP 2: OWNER 2 / ВЛАДЕЛЕЦ 2
-OWNER 2 / ВЛАДЕЛЕЦ 2
-Production Manager / Начальник производства
+EMP 2: PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
+PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
+Owner / Владелец
 (Operational Management / Оперативное управление)
 
 Functions / Функции:
 • Production Management / Руководство производством
-• Joint Design Management / Совместное руководство проектированием
-• Design Engineer Management / Руководство инженером-проектировщиком
+• Operational Management / Оперативное управление
 • Quality Control / Контроль качества
+• Team Management / Управление командой
 
-EMP 3: DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
+EMP 3: SALES MANAGER / МЕНЕДЖЕР ПО ПРОДАЖАМ
+SALES MANAGER / МЕНЕДЖЕР ПО ПРОДАЖАМ
+
+Reports to: EMP 1 (SEO) / Подчинение: EMP 1 (SEO)
+
+Functions / Функции:
+• Sales Management / Управление продажами
+• Dealer Network Management / Управление дилерской сетью
+• Client Relations / Работа с клиентами
+• Sales Strategy / Стратегия продаж
+
+EMP 4: TEAM LEAD / РУКОВОДИТЕЛЬ КОМАНДЫ
+TEAM LEAD / РУКОВОДИТЕЛЬ КОМАНДЫ
+
+Reports to: EMP 2 (Production Supervisor) / Подчинение: EMP 2 (Начальник производства)
+
+Functions / Функции:
+• Team Leadership / Руководство командой
+• Production Coordination / Координация производства
+• Quality Control / Контроль качества
+• Specialist Management / Управление специалистами
+
+EMP 5: DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
 DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
-Planner + Optimizer / Планировщик + Оптимизатор
 
-Reports to: Owner 2 / Подчинение: Владелец 2
+Reports to: EMP 2 (Production Supervisor) / Подчинение: EMP 2 (Начальник производства)
 
 Functions / Функции:
 • 3D Modeling / 3D-моделирование
@@ -74,17 +115,109 @@ Functions / Функции:
 • Process Optimization / Оптимизация процессов
 • Technical Support / Технологическое сопровождение
 
-EMP 4: PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
-PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
-Universal Master / Мастер-универсал
-+ Quality Controller / Контролер качества
+EMP 6: HEAD OF PROCUREMENT / НАЧАЛЬНИК ЗАКУПОК
+HEAD OF PROCUREMENT / НАЧАЛЬНИК ЗАКУПОК
 
-Reports to / Подчинение:
-• Owner 1 (Strategy) / Владелец 1 (стратегия)
-• Owner 2 (Operations) / Владелец 2 (оперативно)
+Reports to: EMP 2 (Production Supervisor) / Подчинение: EMP 2 (Начальник производства)
 
 Functions / Функции:
-• Hull Manufacturing / Изготовление корпуса
-• System Installation / Установка систем
-• Interior & Finishing / Интерьер и отделка
+• Material Procurement / Закупка материалов
+• Supplier Management / Управление поставщиками
+• Cost Optimization / Оптимизация затрат
+• Inventory Management / Управление запасами
+
+EMP 7-9: DEALER / ДИЛЕР
+DEALER / ДИЛЕР
+
+Reports to: EMP 3 (Sales Manager) / Подчинение: EMP 3 (Менеджер по продажам)
+
+Functions / Функции:
+• Sales / Продажи
+• Client Relations / Работа с клиентами
+• Market Development / Развитие рынка
+• Order Processing / Обработка заказов
+
+EMP 10: SPECIALIST ONE / СПЕЦИАЛИСТ ОДИН
+SPECIALIST ONE / СПЕЦИАЛИСТ ОДИН
+
+Reports to: EMP 4 (Team Lead) / Подчинение: EMP 4 (Руководитель команды)
+
+Functions / Функции:
+• Production Work / Производственные работы
 • Quality Control / Контроль качества
+• Technical Support / Техническая поддержка
+• Process Improvement / Улучшение процессов
+
+EMP 11: ASSISTANT (under Specialist One) / ПОМОЩНИК (под Специалистом Один)
+ASSISTANT / ПОМОЩНИК
+
+Reports to: EMP 4 (Team Lead) / Подчинение: EMP 4 (Руководитель команды)
+Works with: EMP 10 (Specialist One) / Работает с: EMP 10 (Специалист Один)
+
+Functions / Функции:
+• Support Specialist One / Поддержка Специалиста Один
+• Production Assistance / Производственная помощь
+• Quality Control Support / Поддержка контроля качества
+
+EMP 12: SPECIALIST TWO / СПЕЦИАЛИСТ ДВА
+SPECIALIST TWO / СПЕЦИАЛИСТ ДВА
+
+Reports to: EMP 4 (Team Lead) / Подчинение: EMP 4 (Руководитель команды)
+
+Functions / Функции:
+• Production Work / Производственные работы
+• Quality Control / Контроль качества
+• Technical Support / Техническая поддержка
+• Process Improvement / Улучшение процессов
+
+EMP 13: ASSISTANT (under Specialist Two) / ПОМОЩНИК (под Специалистом Два)
+ASSISTANT / ПОМОЩНИК
+
+Reports to: EMP 4 (Team Lead) / Подчинение: EMP 4 (Руководитель команды)
+Works with: EMP 12 (Specialist Two) / Работает с: EMP 12 (Специалист Два)
+
+Functions / Функции:
+• Support Specialist Two / Поддержка Специалиста Два
+• Production Assistance / Производственная помощь
+• Quality Control Support / Поддержка контроля качества
+
+EMP 14-16: LAMINATOR / ЛАМИНАТОР
+LAMINATOR / ЛАМИНАТОР
+
+Reports to: EMP 4 (Team Lead) / Подчинение: EMP 4 (Руководитель команды)
+
+Functions / Функции:
+• Lamination Work / Работы по ламинации
+• Composite Materials Processing / Обработка композитных материалов
+• Surface Preparation / Подготовка поверхности
+• Quality Control / Контроль качества
+
+EMP 17: CONTRACTOR. ELECTRICAL / ПОДРЯДЧИК. ЭЛЕКТРИКА
+CONTRACTOR. ELECTRICAL / ПОДРЯДЧИК. ЭЛЕКТРИКА
+
+Reports to: EMP 6 (Head of Procurement) / Подчинение: EMP 6 (Начальник закупок)
+
+Functions / Функции:
+• Electrical Systems Installation / Установка электрических систем
+• Electrical Work / Электрические работы
+• System Testing / Тестирование систем
+
+EMP 18: CONTRACTOR. STAINLESS STEEL / ПОДРЯДЧИК. НЕРЖАВЕЮЩАЯ СТАЛЬ
+CONTRACTOR. STAINLESS STEEL / ПОДРЯДЧИК. НЕРЖАВЕЮЩАЯ СТАЛЬ
+
+Reports to: EMP 6 (Head of Procurement) / Подчинение: EMP 6 (Начальник закупок)
+
+Functions / Функции:
+• Stainless Steel Work / Работы с нержавеющей сталью
+• Metal Fabrication / Изготовление металлических конструкций
+• Installation / Установка
+
+EMP 19: CONTRACTOR. OTHER / ПОДРЯДЧИК. ПРОЧЕЕ
+CONTRACTOR. OTHER / ПОДРЯДЧИК. ПРОЧЕЕ
+
+Reports to: EMP 6 (Head of Procurement) / Подчинение: EMP 6 (Начальник закупок)
+
+Functions / Функции:
+• Other Contract Work / Прочие подрядные работы
+• Specialized Services / Специализированные услуги
+• Additional Support / Дополнительная поддержка

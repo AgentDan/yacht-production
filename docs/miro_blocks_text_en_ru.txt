@@ -1,46 +1,71 @@
 ГОТОВЫЙ ТЕКСТ ДЛЯ БЛОКОВ В MIRO / READY TEXT FOR MIRO BLOCKS
 ============================================================
 
-EMP 1: OWNER 1 / ВЛАДЕЛЕЦ 1
+EMP 1: SEO / ПОИСКОВАЯ ОПТИМИЗАЦИЯ
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-OWNER 1 / ВЛАДЕЛЕЦ 1
-
-Chief Designer / Главный конструктор
-+ Sales Manager / Менеджер по продажам
+SEO / Search Engine Optimization
+Owner / Владелец
 
 Functions / Функции:
-• Order Acceptance / Прием заказов
-• Design Management / Руководство проектированием
-• Client Relations / Работа с клиентами
-• Final Quality Approval / Финальное одобрение качества
+• Strategic Management / Стратегическое управление
+• Marketing & SEO / Маркетинг и SEO
+• Business Development / Развитие бизнеса
+• Sales Management / Управление продажами
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-EMP 2: OWNER 2 / ВЛАДЕЛЕЦ 2
+EMP 2: PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-OWNER 2 / ВЛАДЕЛЕЦ 2
-
-Production Manager / Начальник производства
+PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
+Owner / Владелец
 (Operational Management / Оперативное управление)
 
 Functions / Функции:
 • Production Management / Руководство производством
-• Joint Design Management / Совместное руководство проектированием
-• Design Engineer Management / Руководство инженером-проектировщиком
+• Operational Management / Оперативное управление
 • Quality Control / Контроль качества
+• Team Management / Управление командой
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-EMP 3: DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
+EMP 3: SALES MANAGER / МЕНЕДЖЕР ПО ПРОДАЖАМ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SALES MANAGER / МЕНЕДЖЕР ПО ПРОДАЖАМ
+
+Reports to: EMP 1 (SEO) / Подчинение: EMP 1 (SEO)
+
+Functions / Функции:
+• Sales Management / Управление продажами
+• Dealer Network Management / Управление дилерской сетью
+• Client Relations / Работа с клиентами
+• Sales Strategy / Стратегия продаж
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EMP 4: TEAM LEAD / РУКОВОДИТЕЛЬ КОМАНДЫ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEAM LEAD / РУКОВОДИТЕЛЬ КОМАНДЫ
+
+Reports to: EMP 2 (Production Supervisor) / Подчинение: EMP 2 (Начальник производства)
+
+Functions / Функции:
+• Team Leadership / Руководство командой
+• Production Coordination / Координация производства
+• Quality Control / Контроль качества
+• Specialist Management / Управление специалистами
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EMP 5: DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
 
-Planner + Optimizer / Планировщик + Оптимизатор
-
-Reports to: Owner 2 / Подчинение: Владелец 2
+Reports to: EMP 2 (Production Supervisor) / Подчинение: EMP 2 (Начальник производства)
 
 Functions / Функции:
 • 3D Modeling / 3D-моделирование
@@ -50,23 +75,48 @@ Functions / Функции:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-EMP 4: PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
+EMP 6: HEAD OF PROCUREMENT / НАЧАЛЬНИК ЗАКУПОК
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
+HEAD OF PROCUREMENT / НАЧАЛЬНИК ЗАКУПОК
 
-Universal Master / Мастер-универсал
-+ Quality Controller / Контролер качества
-
-Reports to / Подчинение:
-• Owner 1 (Strategy) / Владелец 1 (стратегия)
-• Owner 2 (Operations) / Владелец 2 (оперативно)
+Reports to: EMP 2 (Production Supervisor) / Подчинение: EMP 2 (Начальник производства)
 
 Functions / Функции:
-• Hull Manufacturing / Изготовление корпуса
-• System Installation / Установка систем
-• Interior & Finishing / Интерьер и отделка
+• Material Procurement / Закупка материалов
+• Supplier Management / Управление поставщиками
+• Cost Optimization / Оптимизация затрат
+• Inventory Management / Управление запасами
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EMP 7-9: DEALER / ДИЛЕР
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DEALER / ДИЛЕР
+
+Reports to: EMP 3 (Sales Manager) / Подчинение: EMP 3 (Менеджер по продажам)
+
+Functions / Функции:
+• Sales / Продажи
+• Client Relations / Работа с клиентами
+• Market Development / Развитие рынка
+• Order Processing / Обработка заказов
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EMP 10-11: SPECIALIST / СПЕЦИАЛИСТ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SPECIALIST / СПЕЦИАЛИСТ
+
+Reports to: EMP 4 (Team Lead) / Подчинение: EMP 4 (Руководитель команды)
+
+Functions / Функции:
+• Production Work / Производственные работы
 • Quality Control / Контроль качества
+• Technical Support / Техническая поддержка
+• Process Improvement / Улучшение процессов
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -74,22 +124,25 @@ Functions / Функции:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 1. EMP 1 ↔ EMP 2:
-   "Partners / Equal / Партнеры / Равноправные"
+   "Collaboration / Взаимодействие"
 
-2. EMP 2 → EMP 3:
+2. EMP 1 → EMP 3:
    "Direct Report / Прямое подчинение"
 
-3. EMP 1 → EMP 4:
-   "Strategic Management / Стратегическое руководство"
+3. EMP 2 → EMP 4:
+   "Direct Report / Прямое подчинение"
 
-4. EMP 2 → EMP 4:
-   "Operational Management / Оперативное руководство"
+4. EMP 2 → EMP 5:
+   "Direct Report / Прямое подчинение"
 
-5. EMP 1 ↔ EMP 3:
-   "Design Collaboration / Взаимодействие по проектированию"
+5. EMP 2 → EMP 6:
+   "Direct Report / Прямое подчинение"
 
-6. EMP 3 ↔ EMP 4:
-   "Technical Support / Технологическое сопровождение"
+6. EMP 3 → EMP 7, EMP 8, EMP 9:
+   "Direct Report / Прямое подчинение"
+
+7. EMP 4 → EMP 10, EMP 11:
+   "Direct Report / Прямое подчинение"
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -99,9 +152,9 @@ Functions / Функции:
 ORGANIZATIONAL STRUCTURE / ОРГАНИЗАЦИОННАЯ СТРУКТУРА
 
 Colors / Цвета:
-🟡 Gold - Owners / Золотой - Владельцы
-🔵 Blue - Supervisors / Синий - Руководители
-🟢 Green - Specialists / Зеленый - Специалисты
+🟡 Gold - Owners (EMP 1, EMP 2) / Золотой - Владельцы
+🔵 Blue - Managers (EMP 3-6) / Синий - Менеджеры
+🟢 Green - Staff (EMP 7-11) / Зеленый - Персонал
 
 Connections / Связи:
 ━━━ Solid - Direct Report / Сплошная - Прямое подчинение
