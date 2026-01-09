@@ -109,10 +109,10 @@
 ## 🎨 Визуальная схема обновлений
 
 ```
-[Сайт Vicenzo BOATS] ──→ [Блок 1: Прием заказа]
+[Сайт Vicenzo BOATS] ──→ [PROC 1: Прием заказа]
      (серый)              (синий)
         │
-        └──→ [Блок 2: Проектирование]
+        └──→ [PROC 2: Проектирование]
               (синий) ──→ [Методология]
                            (заметка)
 ```
@@ -157,8 +157,8 @@
 
 - Полный анализ сайта: [docs/website_analysis.md](website_analysis.md)
 - Интеграция в схему: [docs/website_integration.md](website_integration.md)
-- Блок 1: [docs/process_blocks/01_order_acceptance.md](process_blocks/01_order_acceptance.md)
-- Блок 2: [docs/process_blocks/02_design.md](process_blocks/02_design.md)
+- PROC 1: [docs/process_blocks/01_order_acceptance.md](process_blocks/01_order_acceptance.md)
+- PROC 2: [docs/process_blocks/02_design.md](process_blocks/02_design.md)
 
 ---
 

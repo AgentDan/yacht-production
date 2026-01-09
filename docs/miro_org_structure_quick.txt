@@ -24,12 +24,12 @@ LOWER LEVEL / НИЖНИЙ УРОВЕНЬ:
 
 CONNECTIONS / СВЯЗИ:
 ---------------------
-1. Owner 1 ←→ Owner 2 (Partners / Equal / равноправные партнеры, dashed / пунктир)
-2. Owner 2 → Design Engineer (Direct Report / прямое подчинение, solid / сплошная)
-3. Owner 1 → Production Supervisor (Strategy / стратегия, solid / сплошная)
-4. Owner 2 → Production Supervisor (Operations / оперативно, solid / сплошная)
-5. Owner 1 ←→ Design Engineer (Collaboration / взаимодействие, dashed / пунктир)
-6. Design Engineer ←→ Production Supervisor (Technical Support / технология, dashed / пунктир)
+1. EMP 1 ←→ EMP 2 (Partners / Equal / равноправные партнеры, dashed / пунктир)
+2. EMP 2 → EMP 3 (Direct Report / прямое подчинение, solid / сплошная)
+3. EMP 1 → EMP 4 (Strategy / стратегия, solid / сплошная)
+4. EMP 2 → EMP 4 (Operations / оперативно, solid / сплошная)
+5. EMP 1 ←→ EMP 3 (Collaboration / взаимодействие, dashed / пунктир)
+6. EMP 3 ←→ EMP 4 (Technical Support / технология, dashed / пунктир)
 
 COLORS / ЦВЕТА:
 ---------------
@@ -40,7 +40,7 @@ COLORS / ЦВЕТА:
 BLOCK TEXT / ТЕКСТ ДЛЯ БЛОКОВ:
 ------------------------------
 
-BLOCK 1: OWNER 1 / БЛОК 1: ВЛАДЕЛЕЦ 1
+EMP 1: OWNER 1 / ВЛАДЕЛЕЦ 1
 OWNER 1 / ВЛАДЕЛЕЦ 1
 Chief Designer / Главный конструктор
 + Sales Manager / Менеджер по продажам
@@ -51,7 +51,7 @@ Functions / Функции:
 • Client Relations / Работа с клиентами
 • Final Quality Approval / Финальное одобрение качества
 
-BLOCK 2: OWNER 2 / БЛОК 2: ВЛАДЕЛЕЦ 2
+EMP 2: OWNER 2 / ВЛАДЕЛЕЦ 2
 OWNER 2 / ВЛАДЕЛЕЦ 2
 Production Manager / Начальник производства
 (Operational Management / Оперативное управление)
@@ -62,7 +62,7 @@ Functions / Функции:
 • Design Engineer Management / Руководство инженером-проектировщиком
 • Quality Control / Контроль качества
 
-BLOCK 3: DESIGN ENGINEER / БЛОК 3: ИНЖЕНЕР-ПРОЕКТИРОВЩИК
+EMP 3: DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
 DESIGN ENGINEER / ИНЖЕНЕР-ПРОЕКТИРОВЩИК
 Planner + Optimizer / Планировщик + Оптимизатор
 
@@ -74,7 +74,7 @@ Functions / Функции:
 • Process Optimization / Оптимизация процессов
 • Technical Support / Технологическое сопровождение
 
-BLOCK 4: PRODUCTION SUPERVISOR / БЛОК 4: НАЧАЛЬНИК ПРОИЗВОДСТВА
+EMP 4: PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
 PRODUCTION SUPERVISOR / НАЧАЛЬНИК ПРОИЗВОДСТВА
 Universal Master / Мастер-универсал
 + Quality Controller / Контролер качества
