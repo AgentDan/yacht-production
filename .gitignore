@@ -1,26 +1,43 @@
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
 
-# Editor files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+*.sublime-project
+*.sublime-workspace
 
-# Temporary files
-*.tmp
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
 *.log
-*.cache
+data/temp/
+*.tmp
+*.bak
+*.backup
 
-# Build files
-build/
-dist/
-*.exe
-*.dll
-
-# Environment files
+# Environment variables
 .env
 .env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
